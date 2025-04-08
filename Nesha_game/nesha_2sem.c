@@ -82,7 +82,7 @@ int main()
             
             Chao (chao);//configuração chão
             
-            Obstaculo(obstaculo);//configuracao obstaculos
+            //Obstaculo(obstaculo);//configuracao obstaculos
             
             //Configuração da Nesha
             if (DirecaoFundo) 
@@ -106,7 +106,7 @@ int main()
             {
                 Fundo (background);
                 Chao (chao);
-                Obstaculo(obstaculo);
+                //Obstaculo(obstaculo);
                 Desenha_Nesha(nesha_D);
                 img[1].posX+=speed;
             } 
@@ -115,7 +115,7 @@ int main()
             {
                 Fundo (background);
                 Chao (chao);
-                Obstaculo(obstaculo);
+                //Obstaculo(obstaculo);
                 Desenha_Nesha(nesha_A);
                 img[1].posX-=speed;
             }
@@ -124,7 +124,7 @@ int main()
             {
                 Fundo (background);
                 Chao (chao);
-                Obstaculo(obstaculo);
+                //Obstaculo(obstaculo);
                 DrawTexturePro(nesha_pula, frameRec, (Rectangle){ img[1].posX+32, img[1].posY+32, frameRec.width * 2.5f, frameRec.height * 2.5f }, origin, 0.0f, WHITE);
             }
             
@@ -132,7 +132,7 @@ int main()
             {    
                 Fundo (background);
                 Chao (chao);
-                Obstaculo(obstaculo);
+                //Obstaculo(obstaculo);
                 Desenha_Nesha(nesha_agacha);
             }
         EndDrawing();
